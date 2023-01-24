@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    int n = 5;
+    int n = 4;
     int row = 1;
     int nst = 1;
     int nsp = 2 * n - 3;
-
+    
     while (row <= n)
     {
         int cst1 = 0;

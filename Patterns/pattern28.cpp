@@ -10,7 +10,7 @@ int main()
     int srn = 1;
     while (row <= n)
     {
-        int csp = 0;
+        int csp = 0;    
         while (csp < nsp)
         {
             cout << "\t";
@@ -20,7 +20,7 @@ int main()
         int ntp = srn;
         while (cst < nst)
         {
-            cout << ntp << "\t";
+            cout << ntp << "\t";    
             if (cst < nst / 2)
             {
                 ntp++;
