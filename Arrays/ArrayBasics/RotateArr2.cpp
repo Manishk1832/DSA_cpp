@@ -30,7 +30,7 @@ int main()
 {
     int n = 5;
     int arr[] = {10, 20, 30, 40, 50};
-    int rot = 0;
+    int rot = 6;
     Rotate(arr, rot, n);
     for (int print : arr)
     {
