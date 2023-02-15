@@ -23,11 +23,17 @@ void SelectionSort(int arr[], int n)
 
 int main()
 {
-    int n = 5;
-    int arr[] = {88, 66, 55, 44, 22};
+    int n;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
     SelectionSort(arr, n);
     for (int print : arr)
     {
-        cout << print << " ";
+        cout << print << endl;
     }
 }

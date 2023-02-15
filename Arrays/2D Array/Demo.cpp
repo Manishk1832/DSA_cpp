@@ -13,14 +13,14 @@ int main()
         cout << endl;
     }
 
-    for (int &row : arr)
-    {
-        for (int ele : row)
-        {
-            cout << ele << " ";
-        }
-        cout << endl;
-    }
+    // for (int &row : arr)
+    // {
+    //     for (int ele : row)
+    //     {
+    //         cout << ele << " ";
+    //     }
+    //     cout << endl;
+    // }
 
     cout << "=========" << endl;
     cout << arr;
